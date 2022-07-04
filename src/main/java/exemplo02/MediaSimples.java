@@ -20,7 +20,6 @@ public class MediaSimples {
 
     public static double mediaSimples(double valorA, double valorB){
         //2d deixa claro que não é para converter para int, mas manter double
-        double media = (valorA + valorB) / 2d ;
-        return media;
+        return (valorA + valorB) / 2d;
     }
 }
